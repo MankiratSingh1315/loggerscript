@@ -31,7 +31,7 @@ python log-monitor.py access.log --framework apache
 
 The script will continuously monitor the specified Apache log file and display new log entries in real-time. It will also analyze the log entries to count occurrences of HTTP status codes and error messages. Summary reports will be generated and displayed, showing the top HTTP status codes and repeated error messages.
 
-An example from my terminal:
+An example from my terminal for one of my project:
 ```bash
 $ python3 log-monitor.py ../../../public_html/feedback-backend/apache_logs/access.log --framework apache
 172.19.0.1 - - [23/Apr/2024:20:14:07 +0000] "GET /module.php?to=Signup.getBranches&coursetype=ug HTTP/1.1" 200 644 "-" "PostmanRuntime/7.32.1"
